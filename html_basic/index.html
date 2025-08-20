@@ -2,66 +2,73 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Personal Website</title>
+    <title>Blaise - Personal Portfolio</title>
 </head>
 <body>
     <header>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="tweets.html">Tweets</a></li>
-        </ul>
+        <h1>Blaise</h1>
+        <p>Web Developer & ALX Learner</p>
     </header>
 
-    <main>
-        <article>
-            <h1>Welcome to My Website</h1>
-            <h2>About Me</h2>
-            <p>This is a paragraph about me. I'm learning web development with ALX.</p>
-            <h3>My Interests</h3>
-            <p>This is another paragraph about my interests.</p>
-            <p>Here's a link to my favorite search engine: <a href="https://www.google.com" target="_blank">Google</a></p>
-            
-            <!-- LEARNERS TABLE WITH BORDERS -->
-            <table border="1">
-                <thead>
-                    <tr>
-                        <th>Name</th>
-                        <th>Age</th>
-                        <th>Country</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>John</td>
-                        <td>25</td>
-                        <td>USA</td>
-                    </tr>
-                    <tr>
-                        <td>Emily</td>
-                        <td>28</td>
-                        <td>Canada</td>
-                    </tr>
-                    <tr>
-                        <td>Michael</td>
-                        <td>32</td>
-                        <td>Australia</td>
-                    </tr>
-                    <tr>
-                        <td>Sophia</td>
-                        <td>21</td>
-                        <td>UK</td>
-                    </tr>
-                </tbody>
-            </table>
-            
+    <nav>
+        <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="introduction">
+        <h2>Introduction</h2>
+        <p>Hello! I'm a passionate and dedicated web development student currently enrolled in the ALX program. I am building a strong foundation in HTML, CSS, and JavaScript and am excited to create impactful, user-friendly web experiences. I am a quick learner and thrive in collaborative environments.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        
+        <article class="project">
+            <h3>My First HTML Website</h3>
+            <p>A multi-page personal website built using semantic HTML5. It features a homepage, a tweets page, and a structured layout with a header, main content, aside, and footer.</p>
+            <a href="../html_basic/index.html" target="_blank">View Project</a>
         </article>
-        <aside>
-            <p>placeholder to add comment thread later</p>
-        </aside>
-    </main>
+        
+        <article class="project">
+            <h3>Personal Portfolio (This Site!)</h3>
+            <p>This responsive portfolio webpage, built to showcase my skills and projects. It utilizes semantic HTML structure for accessibility and clean organization.</p>
+            <!-- Since this is the project itself, the link can point to itself or be omitted -->
+            <a href="index.html">View Project</a>
+        </article>
+        
+        <!-- You can add more project articles here in the future -->
+        
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>My journey into tech began with a curiosity about how websites work. That curiosity led me to ALX, where I am rigorously developing my skills in front-end development.</p>
+        <p><strong>Skills:</strong></p>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript (Learning)</li>
+            <li>Git & GitHub</li>
+        </ul>
+        <p>In my free time, I enjoy reading tech blogs, solving coding challenges, and exploring new frameworks.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out to me! I'm open to discussing new opportunities, projects, or just chatting about tech.</p>
+        <ul>
+            <li>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></li>
+            <li>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></li>
+        </ul>
+    </section>
 
     <footer>
-        <p>Made by Your Name - <a href="https://www.example.com" target="_blank">here</a></p>
+        <p>&copy; 2024 Blaise. All rights reserved.</p>
     </footer>
 </body>
 </html>
